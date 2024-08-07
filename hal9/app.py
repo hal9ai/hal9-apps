@@ -38,7 +38,7 @@ tool_calls = response_message.tool_calls
 if tool_calls:
     available_functions = {
         "calculate": calculate,
-        "build_game": build_game  # Add build_game to the available functions
+        "build_game": build_game
     }
 
     for tool_call in tool_calls:
