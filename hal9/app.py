@@ -5,7 +5,7 @@ import json
 import openai
 
 from tool_calculator import calculate
-from tool_game import build_game  
+from tool_game import build_game
 
 MODEL = "llama3-70b-8192"
 
