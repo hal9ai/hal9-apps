@@ -19,7 +19,7 @@ messages.append({"role": "user", "content": prompt})
 
 tools = h9.describe([
   calculate,
-  build_game  # Add build_game to the tools
+  build_game
 ])
 
 tools = [{ "type": "function", "function": tool} for tool in tools]
