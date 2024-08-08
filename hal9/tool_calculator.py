@@ -5,6 +5,7 @@ def calculate(expression):
     """
     try:
         result = eval(expression)
+        print(result)
         return result
     except Exception as e:
         return "Failed with " + str(e)
