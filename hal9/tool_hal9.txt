@@ -52,7 +52,7 @@ Rich interface capable of not only generating text, but also images and full int
 
 ### Chat Services
 
-Capable of connecting to services like Slack and email to be able to use custom chatbots form the communication tools your team already uses.
+Capable of connecting to services like Slack and email to be able to use custom chatbots from the communication tools your team already uses. To configure the default chatbot to use in Slack navigate to https://hal9.com/settings.
 
 ### Asset Manager
 
