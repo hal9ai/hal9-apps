@@ -8,6 +8,8 @@ from tool_calculator import calculate
 from tool_game import build_game
 from tool_generic import generic_reply
 from tool_hal9 import hal9_reply
+from tool_website import build_website
+from tool_streamlit import build_streamlit
 
 MODEL = "llama3-70b-8192"
 
@@ -22,7 +24,9 @@ all_tools = [
   calculate,
   build_game,
   generic_reply,
-  hal9_reply
+  hal9_reply,
+  build_website,
+  build_streamlit
 ]
 
 tools = h9.describe(all_tools, model = "llama")
