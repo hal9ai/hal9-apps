@@ -17,10 +17,10 @@ jobs:
     - name: Install Hal9
       run: pip install hal9
     - name: Deploy App
-      run: hal9 deploy echo --name ECHO
+      run: hal9 deploy echo --name ECHO --access public
       env:
           HAL9_TOKEN: ${{ secrets.HAL9_TOKEN }}
     - name: Deploy App
-      run: hal9 deploy hal9 --name hal9
+      run: hal9 deploy hal9 --name hal9 --access public
       env:
           HAL9_TOKEN: ${{ secrets.HAL9_TOKEN }}
